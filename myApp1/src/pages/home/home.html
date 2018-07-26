@@ -1,0 +1,27 @@
+
+<ion-content padding>
+  <br>
+  <br>
+  <img src="assets/imgs/Picture1.png" class="center"/>
+  <br>
+  
+  <ion-list>
+
+  <ion-item>
+    <ion-input type="email" placeholder="e-mail"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <!-- <ion-input type="password" placeholder="password" </ion-input>[(ngModel)]="passCode"></ion-input> -->
+    <ion-input type="password" placeholder="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+<!-- <button ion-button color="light" (click)="login()" round class="center2"[disabled]="passCode.length <  8" >Login -->
+<button ion-button color="bitelink" (click)="login()" round class="center2">Login</button>
+<ion-label type="text" class="center3"><hr> or </ion-label>
+
+<button ion-button color="bitelink" (click)="register()" round class="center2">
+Register Now
+</button>
+</ion-content>
